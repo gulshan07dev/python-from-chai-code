@@ -17,6 +17,7 @@ try:
     print("Connected to MongoDB successfully!")
 except Exception as e:
     print(f"Failed to connect to MongoDB: {str(e)}")
+    exit()
 
 
 def list_videos():
